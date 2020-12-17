@@ -8,19 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 //        test()
-        
+
 //        let tesla = Tesla()
 //        tesla.run()
 //        tesla.test()
-        
+
 //        let car = Car.init(price: 20)
 //        car.run()
-        
+
         // 空字符串
 //        var emptyStr1 = ""
 //        var emptyStr2 = String()
@@ -76,33 +75,62 @@ class ViewController: UIViewController {
 //       print(substr3.base)
 //       // Substring -> String
 //       var str4 = String(substr3)
-    
+
 //        var str5 = "0123456789"
 //        var substr5:Substring = str5.prefix(5)
 //        print(str5,substr5)
 //
 //        var str6 = String(substr5)
 //        print(str6)
+        shareDemo2()
+        shareDemo3()
+    }
+
+    func shareDemo2() {
+
+//        let img = UIImage.init(named: "favicon")
+//        let btn = UIButton.init(type: .custom)
+//        btn.setTitle("分享", for: .normal)
+
+//        let img2 = UIImage.init(named: R.image.favicon.rawValue)
+//        let btn2 = UIButton.init(type: .custom)
+//        btn2.setTitle(R.string.share.rawValue, for: .normal)
+
+//        let img3 = UIImage.init(R.image.favicon)
+//        let btn3 = UIButton.init(type: .custom)
+//        btn3.setTitle(R.string.share, for: .normal)
+
+//        let img4 = UIImage(named: "favicon")
+//        let font4 = UIFont(name: "Arial", size: 14)
+//
+//        let img5 = R.image.favicon
+//        let font5 = R.font.arial(14)
+    }
+
+    func shareDemo3() {
+        var str1 = "0123456789"
+        var str2 = "0123456789ABCDEF"
+        str1.append("ABCDE")
+        str1.append("F")
         
+        str2.append("G")
     }
     
     // MARK: - 方法 -
+
     func test() {
         log(20)
     }
-    
+
     func test1() {
-        //TODO: 未完成
+        // TODO: 未完成
     }
-    
+
     func test2() {
         #warning("undo")
     }
-    
+
     func test3() {
-        //FIXME: 待修复
+        // FIXME: 待修复
     }
 }
-
-
-

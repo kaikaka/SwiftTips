@@ -11,6 +11,7 @@
 		7F8DDC0D255ADCE200954F14 /* ImportFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8DDC0C255ADCE200954F14 /* ImportFile.swift */; };
 		7F8DDC22255AE16700954F14 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8DDC21255AE16700954F14 /* Car.swift */; };
 		7F8DDC30255AE1E200954F14 /* Tesla.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8DDC2F255AE1E200954F14 /* Tesla.m */; };
+		7FB4E6652589115900C6680F /* R.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB4E6642589115900C6680F /* R.swift */; };
 		7FCE9E46255984330093A25D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCE9E45255984330093A25D /* AppDelegate.swift */; };
 		7FCE9E48255984330093A25D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCE9E47255984330093A25D /* SceneDelegate.swift */; };
 		7FCE9E4A255984330093A25D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCE9E49255984330093A25D /* ViewController.swift */; };
@@ -45,6 +46,7 @@
 		7F8DDC21255AE16700954F14 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		7F8DDC2E255AE1E200954F14 /* Tesla.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tesla.h; sourceTree = "<group>"; };
 		7F8DDC2F255AE1E200954F14 /* Tesla.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tesla.m; sourceTree = "<group>"; };
+		7FB4E6642589115900C6680F /* R.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R.swift; sourceTree = "<group>"; };
 		7FCE9E42255984330093A25D /* SwiftTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FCE9E45255984330093A25D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FCE9E47255984330093A25D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				7F8DDC21255AE16700954F14 /* Car.swift */,
 				7F8DDC2E255AE1E200954F14 /* Tesla.h */,
 				7F8DDC2F255AE1E200954F14 /* Tesla.m */,
+				7FB4E6642589115900C6680F /* R.swift */,
 			);
 			path = SwiftTips;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				7FCE9E46255984330093A25D /* AppDelegate.swift in Sources */,
 				7F8DDC22255AE16700954F14 /* Car.swift in Sources */,
 				7F8DDC05255ADC5900954F14 /* Log.swift in Sources */,
+				7FB4E6652589115900C6680F /* R.swift in Sources */,
 				7FCE9E48255984330093A25D /* SceneDelegate.swift in Sources */,
 				7F8DDC30255AE1E200954F14 /* Tesla.m in Sources */,
 				7F8DDC0D255ADCE200954F14 /* ImportFile.swift in Sources */,
